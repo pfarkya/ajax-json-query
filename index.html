@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Search</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="include/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!--custom Style Sheet-->
+    <link rel="stylesheet" href="include/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form style="text-align: center;align-content: center;margin-top: 70px;">
+            <div class="input-group input-group-lg" style="width: 100%;" id="search">
+                <input type="text" class="form-control" placeholder="Search Movie" id="searchInput">
+                <button class="btn btn-large btn-primary" type="button" style="margin-top:10px" id="searchButton">Search</button>
+            </div>
+        </form>
+    </div>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+    window.jQuery || document.write('<script src="include/js/jquery-1.11.3.min.js"><\/script>')
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom Script-->
+    <script type="text/javascript" src="include/js/script.js"></script>
+</body>
+
+</html>
